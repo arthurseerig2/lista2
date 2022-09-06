@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main() {
+  float comprimento, largura, altura, area, caixas = 1.5;
+  int totalcaixas;
+
+  printf("Insira comprimento:");
+  scanf("%f", &comprimento);
+  printf("Insira largura:");
+  scanf("%f", &largura);
+  printf("Insira altura:");
+  scanf("%f", &altura);
+
+  area = comprimento * largura * altura;
+
+  totalcaixas = area/caixas;
+
+  printf("%d caixas de azulejo", totalcaixas);
+  
+  
+}
