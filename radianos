@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+	int main () {
+	float graus,radianos; // considerei graus como uma variavel tipo float para o codigo ficar mais completo
+
+	printf("Digite o valor em graus:\n> ");
+	scanf("%f", &graus);
+
+	radianos = 3.14 * (graus/180);
+
+	printf("O valor em radianos será: %f",radianos);
+}
